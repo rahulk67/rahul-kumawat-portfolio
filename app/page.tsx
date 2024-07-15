@@ -260,7 +260,7 @@ export default function Home() {
             name="projects">
             <div>
               <h2 className="text-xl pt-10 font-semibold">Projects</h2>
-              {projects.map((project) =>
+              {projects.map(project =>
                 <div
                   key={project.title}
                   className="my-4"
@@ -288,7 +288,7 @@ export default function Home() {
                       </p>
 
                       <div className="flex gap-x-2">
-                        {project.technologies.map((technology) =>
+                        {project.technologies.map(technology =>
                           <div key={technology.title} className="flex items-center">
                             <Image
                               src={technology.image}
@@ -318,12 +318,12 @@ export default function Home() {
 
             <div>
               <h2 className="text-xl pt-10 font-semibold">Skills</h2>
-              {skills.map((skill) =>
+              {skills.map(skill =>
                 <div>
                   <div className="md:flex md:gap-x-10 cursor-pointer items-center border rounded-2xl p-4 bg-white">
                     <div className="flex flex-col space-y-2">
                       <div className="flex gap-x-8">
-                        {skill.technologies.map((technology) =>
+                        {skill.technologies.map(technology =>
                           <div key={technology.title} className="flex items-center">
                             <Image
                               src={technology.image}
@@ -345,7 +345,7 @@ export default function Home() {
           <Element name="education">
             <div className="education section">
               <h2 className="text-xl pt-10 font-semibold">Education</h2>
-              {education.map((item) => (
+              {education.map(item => (
                 <div key={item.title} className="my-4">
                   <div className="md:flex justify-between cursor-pointer items-center border rounded-2xl p-4 bg-white">
                     <div className="flex items-center gap-x-4">
