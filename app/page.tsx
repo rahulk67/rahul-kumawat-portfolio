@@ -94,7 +94,7 @@ const education = [
     title: "Bachelor of Technology ",
     description: "Rajasthan Technical University",
     date: "",
-    image: "/images/rtu.jfif",
+    image: "/images/rtu.jpeg",
   },
   {
     title: "Senior Secondary",
@@ -207,7 +207,7 @@ export default function Home() {
 
         <div className="md:w-3/5 mx-auto px-6 md:px-0 pb-20 ">
           <div className="pt-10 justify-end items-center flex underline md:hidden">
-            <a href="https://www.linkedin.com/in/rahulk67" target="blank">Contact</a>
+            <a href="https://www.linkedin.com/in/rahulk67" target="blank">Contacts</a>
           </div>
 
           <div className="pt-4 justify-end items-center flex underline md:hidden">
